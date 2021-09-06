@@ -10,7 +10,7 @@ const {
 } = require('../helper/utils')
 
 const timelockToken = artifacts.require('./timelockToken.sol')
-const AliceERC20 = artifacts.require('./helper/AliceERC20.sol')
+const AliceERC20 = artifacts.require('./helper/alice.sol')
 
 // some testing data
 const hourSeconds = 3600
